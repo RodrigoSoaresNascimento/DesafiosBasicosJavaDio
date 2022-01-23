@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import java.io.IOException;
 public class TempoDeDobby {
@@ -5,7 +6,7 @@ public class TempoDeDobby {
     	Scanner leitor = new Scanner(System.in);
     	int N = leitor.nextInt();
     	int A = leitor.nextInt() + leitor.nextInt();
-        /*TODO: Complete o If com a condição que soluciona o problema.*/
+        /* Complete o If com a condição que soluciona o problema.*/
     	if (A > N )
     		System.out.println("Deixa para amanha!");
     	else
